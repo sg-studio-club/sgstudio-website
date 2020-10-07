@@ -1,2 +1,2 @@
 # SG Studio Website
-copy right 2020
+เว็บไซต์ของชมรม SG Studio Club
