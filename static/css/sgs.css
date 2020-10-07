@@ -7,6 +7,7 @@ body {
   -webkit-animation: Gradient 5s ease infinite;
   -moz-animation: Gradient 5s ease infinite;
   animation: Gradient 5s ease infinite;
+  transition: 1s;
 }
 
 @media (max-width: 768px) {
@@ -17,7 +18,6 @@ body {
     font-size: 1em;
   }
 }
-
 
 @-webkit-keyframes Gradient {
   0% {
@@ -57,4 +57,15 @@ body {
 
 .socialmedia {
   padding: 0px 10px;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialmedia:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  padding: 10px 0;
+  bottom: 0;
+  position: static;
 }
