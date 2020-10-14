@@ -99,7 +99,7 @@ body {
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #2c4f99 20%, #612c99 80%);
+  background-image: linear-gradient(to top, #1e418e 20%, #0f1f41 80%);
 }
 .bgTop {
   z-index: 15;
@@ -141,4 +141,8 @@ body {
 }
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite;
+}
+
+.btn {
+  border-radius: 1.05rem;
 }
