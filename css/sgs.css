@@ -1,13 +1,15 @@
 body {
   font-family: "Kanit", sans-serif;
-  color: white;
   height: 100vh;
-  background: linear-gradient(-45deg, #2c4f99, #612c99, #24637e);
+  background: linear-gradient(-45deg, #2c4f99, #0a0e50, #0c3d52);
   background-size: 400% 400%;
   -webkit-animation: Gradient 5s ease infinite;
   -moz-animation: Gradient 5s ease infinite;
   animation: Gradient 5s ease infinite;
-  transition: 1s;
+}
+
+h2,h6{
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -68,4 +70,16 @@ body {
   padding: 10px 0;
   bottom: 0;
   position: static;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+}
+
+@media (min-width: 576px){
+.jumbotron {
+    padding: 1rem 0rem;
+}
 }
